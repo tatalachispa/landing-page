@@ -41,9 +41,10 @@ h3 {
   img {
     max-width: 150px;
     height: auto;
-    position: absolute;
+    position: relative;
     margin-left: 20px;
     border-radius: 50%;
+    align-items: center;
   }
   
   aside {
