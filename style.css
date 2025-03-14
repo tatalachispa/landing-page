@@ -25,5 +25,24 @@ header {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
- 
+} 
+  img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 50%;
+  }
+  
+  aside {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 20px;
+  } 
