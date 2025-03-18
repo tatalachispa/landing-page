@@ -21,7 +21,7 @@ main{
 }
 aside{
     background-color: red;
-    color: white;
+    color: rgb(38, 0, 255);
     width: 40%;
     height: 100%;
 }
