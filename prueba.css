@@ -10,17 +10,17 @@ body{
     display: flex;
 }
 header{
-
+    
 }
 main{
     height: 100%;
     width: 60%;
-    background-color: #747474;
+    background-color: #686868;
 
 }
 aside{
     width: 40%;
-    height: 100%;
+    height: 100%; 
 }
 img{
     width: 100%;
@@ -81,12 +81,18 @@ ul.listaDP{
 }
 .contenededorFlexbox{
     display: flex;
+    flex-direction: column;
     background-color: gainsboro;
-    border-radius: 1em;
-    padding: 1em;
+    overflow-x: auto;
+    gap: 10px;
+    justify-content: space-evenly;
 }
-.trajeta{
-    background-color: indigo;
+.tarjeta{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    flex: 0 0 100px;
+    background-color: rgb(44, 44, 44);
     color: white;
     border-radius: 1em;
     padding: 1em;
@@ -96,10 +102,10 @@ ul.listaDP{
     font-size: 1.5em;
     font-weight: bold;
 }
-.trajetaContenido{
+.tarjetaContenido{
     font-size: 1em;
     background-color: white;
-    color: gray;
+    color: rgb(0, 0, 0);
     padding: 1em;
     border-radius: 1em;
 }
