@@ -1,13 +1,56 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: rgb(104, 104, 104);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.cont-login{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .login {
+    width: 540px;
+    height: 960px;
     background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 39px;
+    color: #444;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+  }
+
+  input {
+    width: 70%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #ddd;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #777;
+  }
+  
+  .boton {
+    text-align: center;
+    width: 70%;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .boton-link:hover{
+    background-color: #00004d;
+    transition: 0.3s;
+  }

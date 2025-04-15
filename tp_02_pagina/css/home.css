@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home {
+    background-color: white;
+    width: 540px;
+    height: 960px;
+    border: 1px solid #000;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: normal;
+  }
+  
+  .menu {
+    background: none;
+    border: none;
+    font-size: 25px;
+  }
+  
+  .iconos span {
+    margin-left: 10px;
+    font-size:25px;
+  }
+  
+  .navegar {
+    display: flex;
+    gap: 27px;
+    margin: 19px 0;
+  }
+  
+  .navegar span {
+    font-size: 27px;
+    color: #ccc;
+  }
+  
+  .navegar .uno {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .productos {
+    display: flex;
+    flex-direction: column;
+    gap: 70px
+  }
+  
+  .producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .producto .foto {
+    width: 170px;
+    height: 170px;
+    background: #ccc;
+  }
+  
+  .producto .info {
+    flex: 1;
+    margin-left: 16px;
+  }
+  
+  .producto h2 {
+    font-size: 21px;
+    margin: 0;
+  }
+  
+  .producto p {
+    font-size: 15px;
+    color: #888;
+    margin: 4px 0 8px;
+  }
+  
+  .precio-calif {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pecio {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .calificacion {
+    background: blue;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin: 5px;
+  }
+  
